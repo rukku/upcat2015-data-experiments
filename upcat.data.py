@@ -15,7 +15,7 @@ def downloadResults():
             print "%s Already exists \n" % currentpage
             continue
         else:
-            #wget.download(pageurl)
+            wget.download(pageurl)
             print "Downloading %s" % currentpage
 
 def listHTML():
